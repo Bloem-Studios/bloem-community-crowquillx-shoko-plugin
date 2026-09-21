@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
-	"github.com/crowquillx/silo-shoko-plugin/internal/vfs"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/vfs"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 

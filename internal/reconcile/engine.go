@@ -13,9 +13,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
-	"github.com/crowquillx/silo-shoko-plugin/internal/topology"
-	"github.com/crowquillx/silo-shoko-plugin/internal/vfs"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/topology"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/vfs"
 )
 
 const (

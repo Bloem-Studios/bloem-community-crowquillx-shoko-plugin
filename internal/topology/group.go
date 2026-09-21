@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
 )
 
 // GroupLayout assigns every Shoko series and episode in a group to the logical

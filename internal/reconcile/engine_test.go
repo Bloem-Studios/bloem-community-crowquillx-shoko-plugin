@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
-	"github.com/crowquillx/silo-shoko-plugin/internal/vfs"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/vfs"
 )
 
 func TestStepResumesFromPersistentStateAndPollReplaysAfterRestart(t *testing.T) {

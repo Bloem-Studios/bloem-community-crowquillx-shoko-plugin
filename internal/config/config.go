@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
 )
 
 const connectionKey = "connection"

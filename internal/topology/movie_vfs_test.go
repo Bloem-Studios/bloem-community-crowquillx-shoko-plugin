@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
 )
 
 func TestBuildRendersMovieAsSeriesEpisode(t *testing.T) {

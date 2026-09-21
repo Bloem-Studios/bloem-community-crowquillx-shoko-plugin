@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
 )
 
 func TestBuildCreatesStableLogicalEpisodeEntry(t *testing.T) {

@@ -20,15 +20,15 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	publicmanifest "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginsdk/manifest"
-	sdkruntime "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginsdk/runtime"
-	"github.com/crowquillx/silo-shoko-plugin/internal/config"
-	"github.com/crowquillx/silo-shoko-plugin/internal/identity"
-	"github.com/crowquillx/silo-shoko-plugin/internal/reconcile"
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
-	"github.com/crowquillx/silo-shoko-plugin/internal/topology"
-	"github.com/crowquillx/silo-shoko-plugin/internal/vfs"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	publicmanifest "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginsdk/manifest"
+	sdkruntime "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginsdk/runtime"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/config"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/identity"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/reconcile"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/topology"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/vfs"
 )
 
 // version is set at build time with -ldflags "-X main.version=...".

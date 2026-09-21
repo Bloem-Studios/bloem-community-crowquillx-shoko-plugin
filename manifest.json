@@ -20,12 +20,12 @@
   "presentation": {
     "display_name": "ShokoAnime VFS",
     "summary": "Builds a Shoko-backed virtual filesystem for Silo libraries.",
-    "description_markdown": "Reads Shoko Server API v3, reconciles deterministic plugin-owned leaf symlinks, and publishes successful VFS changes for targeted Silo scans. It deliberately does not expose remote streams or modify Shoko data.",
+    "description_markdown": "Reads Shoko Server API v3, reconciles deterministic plugin-owned leaf symlinks, and publishes successful VFS changes for targeted Silo scans. It deliberately does not expose remote streams or modify Shoko data.\n\nCommunity plugin by Renkei (https://github.com/crowquillx/silo-shoko-plugin), built for Bloem on the Bloem plugin SDK.",
     "setup_markdown": "Configure a Shoko Server URL, API key, a Silo-visible output root, and managed-folder path mappings. Start with a dry-run reconcile and verify that the plugin and Silo share the same filesystem namespace. Enable the Shoko VFS autoscan source: the scheduled task uses a bounded step and scan_source.v1 resumes pending work and queues targeted scans after successful commits.",
     "homepage_url": "https://github.com/crowquillx/silo-shoko-plugin",
-    "source_url": "https://github.com/crowquillx/silo-shoko-plugin",
-    "support_url": "https://github.com/crowquillx/silo-shoko-plugin/issues",
-    "changelog_url": "https://github.com/crowquillx/silo-shoko-plugin/releases",
+    "source_url": "https://github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin",
+    "support_url": "https://github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/issues",
+    "changelog_url": "https://github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/releases",
     "publisher_name": "Renkei",
     "publisher_url": "https://github.com/crowquillx",
     "license_spdx": "MIT"

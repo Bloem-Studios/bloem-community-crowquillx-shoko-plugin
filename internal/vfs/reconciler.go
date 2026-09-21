@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/crowquillx/silo-shoko-plugin/internal/topology"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/topology"
 )
 
 const manifestVersion = 1

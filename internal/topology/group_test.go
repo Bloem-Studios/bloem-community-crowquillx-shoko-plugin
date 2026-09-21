@@ -3,7 +3,7 @@ package topology
 import (
 	"testing"
 
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
 )
 
 func TestMovieOnlyGroupUsesOneSeasonWithSequentialEpisodes(t *testing.T) {

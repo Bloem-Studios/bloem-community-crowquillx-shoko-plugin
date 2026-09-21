@@ -1,3 +1,12 @@
+## Bloem community build
+
+This is Bloem's community build of [crowquillx/silo-shoko-plugin](https://github.com/crowquillx/silo-shoko-plugin) by **crowquillx**
+(contributors: crowquillx). It is ported to the Bloem plugin SDK and listed in the
+Bloem community plugin catalog. All credit for the plugin goes to its author; please
+report plugin behavior issues upstream. See [NOTICE](NOTICE) for provenance.
+
+---
+
 # Silo ShokoAnime VFS plugin
 
 Shoko remains the source of truth while Silo sees deterministic, group-aware

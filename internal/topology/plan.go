@@ -13,7 +13,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/crowquillx/silo-shoko-plugin/internal/shoko"
+	"github.com/Bloem-Studios/bloem-community-crowquillx-shoko-plugin/internal/shoko"
 )
 
 type Mode string
